@@ -16,7 +16,7 @@ echo [1/5] Initializing Git repository...
 
 echo [2/5] Setting up remote repository...
 "%GIT_CMD%" remote remove origin 2>nul
-"%GIT_CMD%" remote add origin https://github.com/Bashir-Abiyev/Memoria-ai.git
+"%GIT_CMD%" remote add origin https://github.com/besirabiyev901-cyber/MemoriaAI.git
 "%GIT_CMD%" branch -M main
 
 echo [3/5] Staging files (protecting secret keys with .gitignore)...
@@ -30,7 +30,7 @@ echo [5/5] Pushing to main branch...
 
 if %ERRORLEVEL% EQU 0 (
   echo.
-  echo [SUCCESS] Successfully pushed to https://github.com/Bashir-Abiyev/Memoria-ai.git!
+  echo [SUCCESS] Successfully pushed to https://github.com/besirabiyev901-cyber/MemoriaAI.git!
 ) else (
   echo.
   echo [NOTE] If this is your first push or authentication is required, GitHub may prompt for login or personal access token.
